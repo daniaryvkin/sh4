@@ -66,6 +66,8 @@ def dz2():
         print(_number)
         _number = _number - random.random()
         print(_number)
+        input("Press Enter to return to the menu")
+        Start()
 
 
 Start()
