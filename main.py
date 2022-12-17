@@ -39,9 +39,11 @@ def dz1():
             print(self.type)
             print(" ")
 
+
     class MERSEDES(LADA):
         motor = "v13"
         type = "gryzovaa"
+
 
         def __init__(self):
             print("MERSEDES")
@@ -64,7 +66,6 @@ def dz2():
         print(_number)
         _number = _number - random.random()
         print(_number)
-
 
 
 Start()
